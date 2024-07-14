@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gtown wines's UPI Payment Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9546893092793579"
+     crossorigin="anonymous"></script>
+    <meta property="og:image" content="https://aslisachin.github.io/nvd-coins/files/img/upi-logo.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X8WEB2CBD"></script>
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="1053924988749839" />
+    <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9546893092793579" crossorigin="anonymous"></script>-->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7X8WEB2CBD');
+</script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://aslisachin.github.io/nvd-coins/styles.css" />
+    <style>
+        a{
+            text-decoration: none;
+            color: var(--white);
+        }
+        a:visited{
+            text-decoration: none;
+            color: var(--white);
+        }
+        
+.animate-contain {
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 10px;
+}
+.animated-text {
+	display: inline-block;
+	transition: 500ms all;
+	margin-top: 0;
+	animation: slide 10s infinite alternate ease-in-out;
+	color: #000;
+}
+.animated-text span {
+	display: block;
+	/*font-size: 20px;*/
+	padding:8px 5px;
+}
+@keyframes slide{
+	0%{margin-top:0;}
+	10%{margin-top:0;}
+	20%{margin-top:-40px;}
+	30%{margin-top:-80px;}
+	40%{margin-top:-120px;}
+	50%{margin-top:-140px;}
+	70%{margin-top:-120px;}
+  80%{margin-top:-80px;}
+  90%{margin-top:-40px;}
+  100%{margin-top:0;}
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-dash">
+        <img src="https://aslisachin.github.io/nvd-coins/files/img/upi-logo.jpg" alt="" class="avatar" />
+        <p class="text-center mt-20 text-shadow">You Are Paying</p>
+        <h1 class="text-center mt-10 text-shadow">Gtown wines</h1>
+        <div class="animate-contain">
+		<div class="animated-text">
+			<span>⚠️You Are Paying To Gtown wines</span>
+            <span>⚠️Money will be debited from your account.</span>
+            <span>⚠️Name is not verified. Proceed with Caution.</span>
+			<span>⚠️आप पेमेंट कर रहे है।</span>
+			<span>⚠️आपके खाते से पैसा डेबिट हो जाएगा।</span>
+		</div>
+	    </div>
+        <div class="coins text-center mt-20">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi%3A%2F%2Fpay%3Fcu%3DINR%26pa%3DENPE.A5647827313563%40icici%26pn%3DGtown+wines%26am%3D%26tn%3DProcessed+By+Apgy+Tools"
+            alt=""
+            width="50%"
+          />
+        </div>
+
+        <p class="text-center mt-10">Scan With Any UPI App</p>
+        <p class="text-center mt-10">or Click on <b>Pay Now</b> Button</p>
+      </div>
+      <div id="buttons">
+         <a href="upi://pay?cu=INR&pa=ENPE.A5647827313563@icici&pn=Gtown wines&am=&tn=Processed By Apgy Tools">
+             <button class="button btn-block mt-10" id="payBTN">Pay Now</button>
+         </a>
+      </div>
+      
+      <div id="buttons">
+         <a href="https://tools.apgy.in/tool/upi-payment-link-maker/">
+             <button class="another-button btn-block mt-10" id="payBTN">Create Your Own UPI Link</button>
+         </a>
+      </div>
+      
+      <br/>
+        <p class="text-center mt-10">Powered by <a href="https://tools.apgy.in/tool/upi-payment-link-maker/"><b>Apgy Tools</b></a></p>
+    </div>
+    
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.apgy.in"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//matomo.aslisachin.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+  </body>
+</html>
